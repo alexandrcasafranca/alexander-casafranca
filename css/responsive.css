@@ -14,6 +14,24 @@
 
 }
 
+
+
+
+@media screen and (max-width: 1000px) {
+
+/*-------------------------------*\
+    #PAGE-HOME-SECTION-TWO
+\*-------------------------------*/
+
+    .ui-home-service-item {
+        width: 50%;
+    }
+
+}
+
+
+
+
 @media screen and (max-width: 850px) {
 
 /*-------------------------------*\
@@ -39,6 +57,22 @@
 }
 
 @media screen and (max-width: 700px) {
+/*-------------------------------*\
+    #HEADER
+\*-------------------------------*/
+
+    .ui-header-page-top-box {
+        justify-content: center;
+    }
+
+    .ui-phone-social-menu {
+        display: none;
+    }
+
+/*-------------------------------*\
+    #PAGE-HOME-SECTION-ONE
+\*-------------------------------*/
+
     .ui-page-home-section-one {
         height: 100vh;
         padding-top: 70px;
@@ -49,14 +83,51 @@
         flex-direction: column;
     }
 
+    .ui-page-home-section-one-text {
+        display: -webkit-flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .ui-page-home-section-one-text-link {
         margin-bottom: 0px;
     }
 
     .ui-page-home-section-one-text__title {
-        font-size: 36px;
-        line-height: 36px;
+        font-size: 31px;
+        line-height: 31px;
+        max-width: 300px;
+        width: 100%;
     }
+
+    .ui-page-home-section-one-text__paragraph {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .ui-page-home-section-one-text__paragraph br {
+        display: none;
+    }
+
+    .ui-page-home-section-one-link {
+        flex-direction: column;
+    }
+
+    .ui-page-home-section-one-link li:first-child {
+        margin-right: initial;
+        margin-bottom: 15px;
+    }
+
+/*-------------------------------*\
+    #PAGE-HOME-SECTION-TWO
+\*-------------------------------*/
+
+    .ui-home-service-item {
+        width: 100%;
+    }
+
 }
 
 
@@ -77,6 +148,14 @@
             width: 100%;
             max-width: 365px;
     }
+
+/*-------------------------------*\
+    #PAGE-HOME-SECTION-SEVEN
+\*-------------------------------*/
+
+    .ui-form-contact-box__item {
+        width: 100%;
+    }
         
 }
 
@@ -94,14 +173,6 @@
             width: 100%;
             max-width: 365px;
             justify-content: start;
-        }
-
-        .ui-date-user__icon {
-            display: block;
-        }
-
-        .ui-date-user__text {
-            text-align: left;
-        }
+        }               
         
     }
