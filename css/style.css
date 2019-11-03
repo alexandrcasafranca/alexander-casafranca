@@ -1436,6 +1436,10 @@ ul {
     background-color: #E82C0C;
 }
 
+.ui-testimonial-item-circle--three {
+    background-color: #FF0000;
+}
+
 .ui-testimonial-item-circle__text {
     font-family: 'Poppins ExtraBold';
     text-transform: uppercase;
