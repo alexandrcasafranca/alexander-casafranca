@@ -29,6 +29,7 @@ $(document).ready(function() {
     items: 3,
     dots: true,
     margin: 36,
+    loop: false,
     responsiveClass:true,
     responsive:{
         0:{
