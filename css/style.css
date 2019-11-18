@@ -1194,6 +1194,24 @@ ul {
     display: block;
 }
 
+.ui-agency-layout {
+    margin-bottom: 12px;
+}
+
+.ui-agency-layout span {
+    color: #fff;
+    text-align: center;
+    font-family: 'Poppins Light';
+    font-size: 11px;
+    line-height: 11px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.ui-agency-layout span:first-child {
+    margin-bottom: 5px;
+}
+
 .ui-owl-carousel__link {
     width: 120px;
     height: 30px;
