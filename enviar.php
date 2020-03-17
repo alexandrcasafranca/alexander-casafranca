@@ -1,4 +1,14 @@
 <?php
+if ($_POST['verificacion'] != ""){
+    // Es un SPAMbot
+    exit();
+}else{
+    // Es un usuario real, proceder a enviar el formulario.
+}
+?>
+
+
+<?php
     $destino = "brunoalexandercasafranca@gmail.com";
     $fullName = $_POST["fullname"];
     $email = $_POST["email"];
@@ -12,3 +22,5 @@
     mail($destino, "Asunto", $contenido);
     header("Location:index.html");
 ?>
+
+

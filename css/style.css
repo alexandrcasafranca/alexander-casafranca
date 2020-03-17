@@ -1714,7 +1714,9 @@ ul {
     text-transform: uppercase;
 }
 
-
+.ui-verif {
+    display: none;
+}
 
 
 /*-------------------------------*\
