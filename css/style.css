@@ -1064,6 +1064,10 @@ ul {
     background-color: #FA0D81;
 }
 
+.ui-owl-carousel--color10 {
+    background-color: #E300DF;
+}
+
 .ui-owl-carousel__bg {
     position: absolute;
     top: 0;
@@ -1167,6 +1171,16 @@ ul {
 
 .ui-owl-carousel--bgImage9 {
     background-image: url(../img/bg-project-fipronex.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #E30100;
+    background-blend-mode: luminosity;
+    opacity: 0.3;
+}
+
+.ui-owl-carousel--bgImage10 {
+    background-image: url(../img/bg-project-nativoslab.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
