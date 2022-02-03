@@ -2,5 +2,13 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/alexandercasafra/public_html/
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R font $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp cv_alexander_casafranca.pdf $DEPLOYPATH
+    - /bin/cp mockup.pdf $DEPLOYPATH
+    - /bin/cp robots.txt $DEPLOYPATH
+    - /bin/cp sitemap.xml $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
     
