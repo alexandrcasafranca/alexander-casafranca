@@ -136,6 +136,10 @@
 
 @media screen and (max-width: 600px) {
 
+    .ui-owl-carousel__item {
+        height: 320px;
+    }
+
 /*-------------------------------*\
     #PAGE-HOME-SECTION-FIVE
 \*-------------------------------*/

@@ -381,42 +381,6 @@ ul {
     }
 }
 
-.ui-social-top:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 1px;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
-    -webkit-animation: socialTopRightBorder .3s linear 2.4s;
-    -moz-animation: socialTopRightBorder .3s linear 2.4s;
-    -ms-animation: socialTopRightBorder .3s linear 2.4s;
-    -o-animation: socialTopRightBorder .3s linear 2.4s;
-    animation: socialTopRightBorder .3s linear 2.4s;
-    -webkit-animation-fill-mode: backwards;
-    animation-fill-mode: backwards;
-}
-
-@-webkit-keyframes socialTopRightBorder {
-    from {
-        height: 0%;
-    }
-
-    to {
-        height: 100%;
-    }
-}
-
-@keyframes socialTopRightBorder {
-    from {
-        height: 0%;
-    }
-
-    to {
-        height: 100%;
-    }
-}
 
 .ui-social-top li:first-child {
     margin-right: 12px;
@@ -1010,7 +974,7 @@ ul {
 }
 
 .ui-owl-carousel__item {
-    height: 354px;
+    height: 510px;
     position: relative;
     overflow: hidden;
 }
@@ -1556,6 +1520,7 @@ ul {
 /*-------------------------------*\
     #PAGE-HOME-SECTION-SEVEN
 \*-------------------------------*/
+
 .ui-page-home-section-seven {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -1731,6 +1696,64 @@ ul {
 .ui-verif {
     display: none;
 }
+
+
+
+
+/*-------------------------------*\
+    #PAGE-HOME-SECTION-EIGHT
+\*-------------------------------*/
+
+.ui-blog-list {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ui-box-blog-list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1074px;
+
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ui-blog-item-box {
+    border-radius: 5px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 12px rgba(57, 57, 57, 0.07);
+    -moz-box-shadow: 0px 0px 12px rgba(57, 57, 57, 0.07);
+    box-shadow: 0px 0px 12px rgba(57, 57, 57, 0.07);
+}
+
+.ui-blog-item {
+    width: 33.33%;
+    padding: 10px;
+}
+
+.ui-blog-item-bg {
+    height: 180px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ui-blog-item-text {
+    padding: 20px;
+}
+
+.ui-blog-item-text__title {
+    font-family: 'Poppins Bold';
+    font-size: 14px;
+    opacity: 0.4;
+    margin-bottom: 10px;
+}
+
+
 
 
 /*-------------------------------*\
